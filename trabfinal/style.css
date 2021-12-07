@@ -1,0 +1,93 @@
+#carouselExampleDark{
+width: 500px;
+display: inline-block;
+margin-top: 20px;
+margin-left: 50px;
+	  }
+
+#noticias {
+	margin-top: 20px;
+	margin-left: 550px;
+padding-bottom: 20px;
+	
+}
+
+#opcoes {
+	position:static;
+	margin-top: 5vh;
+	left: 400px;
+
+}
+#podcast{
+	
+	width: 510px; 
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 20px;
+	
+}
+
+body{ 
+	background-image:url(backgroundonepiece.jpg);
+	
+ background-repeat: no-repeat;
+background-size: cover;
+ margin: 0px;
+ padding: 0px;
+
+
+}
+
+
+footer {
+	position: static;
+	
+	color: white;
+	padding: 50px;
+
+	height: 30px;
+
+	margin-top: 10px;
+
+
+	}
+
+#noticiaspodcast {
+
+	position:static ;
+
+	display: inline-block;
+	margin-left: 550px;
+margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+#noticiasborda{
+	border-color: blueviolet;
+}
+
+#texto {
+	text-align: center;
+
+
+}
+
+section{
+	text-align: center;
+
+}
+#cards{
+	
+	padding: 20px;
+	
+}
+
+#parceiros {
+	width: 150px;
+
+}
+#senai{
+	width: 400px;
+	border-spacing: 20px;
+	display: inline-block;
+}

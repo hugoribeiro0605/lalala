@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Empresa</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<script type="text/javascript">
+  
+function envio(){
+  alert("As informações foram enviadas com sucesso!")
+}
+
+
+</script>
+<body>
+
+
+
+
+	  <nav class="navbar navbar-dark bg-dark">
+  <!-- Navbar content -->
+ <div class="container-fluid">
+<a class="navbar-brand" href="index.html"><img src="oplogo.png" alt=""width="65" height="45"></a>
+<a class="navbar-brand" href="noticias.html">Notícias</a>
+<a class="navbar-brand" href="episodios.html">Episódios</a>
+<a class="navbar-brand" href="manga.html">Mangá</a>
+<a class="navbar-brand" href="podcast.html">Podcast</a>
+<a class="navbar-brand" href="comprar.html">Comprar</a>
+<a class="navbar-brand" href="empresa.html">Sobre nós</a>
+                       
+  </div>
+</nav>
+<div id="texto" class=" shadow-lg p-3 mb-5  bg-body rounded  my-5 " ><h5>A OBPR nasceu de um projeto academico do Senai, com objetivo de fazer um trabalho sem fins lucrativos entre fãs de One Piece. Abaixo detalharemos através de wireframes o organograma original de nossas páginas.</h5>
+
+  
+  <a href= "wireframe.pdf" download = "wireframe.pdf" type="application/pdf"><img  id="parceiros"src="noticias.png" class="rounded float" alt="..."> <br>Baixar wireframe em PDF</a>
+<br><br>
+  <h5>Quer entrar em contato conosco? preencha este formulário com suas sugestões, que nossa equipe irá retorna-lo o mais breve possível!</h5>
+  <form name="fmvalor">
+    Nome completo:<br>
+    <input type="text" name="txnome" value=""><br>
+
+    Email:<br>
+    <input type="text" name="txemail" value=""><br>
+    Telefone:<br>
+    <input type="text" name="txtelefone" value=""><br>
+
+    Sugestão de Assunto:<br>
+    <input type="text" name="txassunto" value=""><br>
+
+
+   
+    </label><br>
+Informações Adicionais:<br>
+    <label>
+    <textarea name="textarea" cols="40" rows="5">Digite o seu texto aqui.</textarea>
+    </label>
+    
+  <br>
+
+    <input type="button" name="envia" id="enviar" value="Enviar" onclick="envio();">
+<br><br>
+<b>Local da nossa Sede<b><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.74445792593!2d-48.0771419845262!3d-16.026812732985427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9359801bf4aad603%3A0xf28fdf00d41fa6c0!2sSenai%20Gama!5e0!3m2!1spt-BR!2sbr!4v1638559374869!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<br><br>
+<br><br>
+  <h5>Nossos maiores parceiros são</h5>
+  <a href="https://www.amazon.com.br/" target="_blank"><img  id="parceiros"src="amazon.png" class="rounded float" alt="...">
+<a href="https://onepieceex.net/" target="_blank"><img id="parceiros" src="opex.jpg" class="rounded float" alt="...">
+<a href="https://www.crunchyroll.com/pt-br" target="_blank"><img id="parceiros" src="crunchy.png" class="rounded float" alt="...">
+<a href="https://mangalivre.net/" target="_blank"><img id="parceiros" src="mangalivre.png" class="rounded float" alt="...">
+<a href="https://blog.disqus.com/" target="_blank"><img id="parceiros" src="disqus.png" class="rounded float" alt="...">
+<a href="https://www.lojanewpop.com.br/" target="_blank"><img id="parceiros" src="newpop.png" class="rounded float" alt="...">
+<a href="https://kaizoku.atomiplay.com/" target="_blank"><img id="parceiros" src="kaizoku.jpg" class="rounded float" alt="...">
+<a href="https://aminoapps.com/" target="_blank"><img id="parceiros" src="amino.jpg" class="rounded float" alt="...">
+<a href="https://www.youtube.com/" target="_blank"><img id="parceiros" src="youtube.png" class="rounded float" alt="...">
+<a href="https://twitter.com/" target="_blank"><img id="parceiros" src="twitter.png" class="rounded float" alt="..."></a>
+</div>
+<h5><i><center>Agora que nos conhece, que tal recomendar-nos aos seus amigos fãs de One Piece?</h5><br>
+<center><a href="index.html" target="_blank"><img  id="parceiros"src="oplogo.png" class="rounded float" alt="..."></center></a></center></i>
+</b>
+<!-- RODAPÉ-->
+<div  class="rodape" >
+  <footer class="d-flex flex-wrap justify-content-between align-items-center bg-dark">
+    <div class="col-md- d-flex align-items-center">
+      <a href="/" class="mb- me- mb-md text-muted text-decoration-none lh-1">
+        <svg class="bi" width="10" height="14"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      
+      <span class="text-muted">&copy; OPBR é um fã-site dedicado a One Piece, todos os direitos reservados à Eiichiro Oda,
+      2021<br>Desenvolvido por Hugo Ribeiro</span>
+
+    </div>
+
+  </footer>
+</div>
+
+
+
+<!--LINK JS EXECUTAR BOOTSTRAP-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
